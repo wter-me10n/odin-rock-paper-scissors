@@ -45,18 +45,25 @@ function playRound(playerSelection,computerSelection) {
 
 
 
+
 function game() {
     let player = prompt('Rock, Paper, or Scissors?' , '')
     console.log(
         playRound(player.toLowerCase(), getComputerChoice())
     )
+    player = prompt('Rock, Paper, or Scissors?' , '')
+    console.log(
+        playRound(player.toLowerCase(), getComputerChoice())
+    )
+    player = prompt('Rock, Paper, or Scissors?' , '')
+    console.log(
+        playRound(player.toLowerCase(), getComputerChoice())
+    )
+    player = prompt('Rock, Paper, or Scissors?' , '')
+    console.log(
+        playRound(player.toLowerCase(), getComputerChoice())
+    )
 }
 
-
-alert('Welcome! (Please use console to see the results...)')
+alert('Welcome! (Please use console to see the on-going results...)')
 game();
-game();
-game();
-game();
-game();
-
