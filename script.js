@@ -31,8 +31,21 @@ function playRound(playerSelection,computerSelection) {
         } else if (playerSelection == 'scissors' && computerSelection == 'scissors') {
             return 'Tie';
     }
-    
+
 }
 
 
+
+function game() {
+    let player = prompt('Rock, Paper, or Scissors?' , '')
+    console.log(
+        playRound(player.toLowerCase(), getComputerChoice())
+    )
+}
+
+game();
+game();
+game();
+game();
+game();
 
